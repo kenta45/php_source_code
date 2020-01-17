@@ -1,0 +1,5 @@
+2019年  6月 12日 水曜日 14:28:07 JST
+             total       used       free     shared    buffers     cached
+Mem:       1019924     637076     382848        588      14576      84464
+-/+ buffers/cache:     538036     481888
+Swap:      2064380          0    2064380

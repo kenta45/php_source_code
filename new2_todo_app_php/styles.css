@@ -1,0 +1,54 @@
+body{
+  font-family: Arial sans-serif;
+  font-size: 20px;
+}
+
+.container{
+  width: 500px;
+  margin: 20px auto;
+}
+
+h1{
+  text-align: center;
+}
+
+.textarea{
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+ul > li {
+  list-style: none;
+  padding: 5px;
+}
+
+.delete_todo{
+  float: right;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.delete_todo:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.checkbox{
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+
+
+#todo_template{
+  display: none;
+}

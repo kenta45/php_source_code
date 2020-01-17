@@ -1,0 +1,75 @@
+body {
+  font-family: Arial sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 30px 0;
+}
+
+
+
+.box {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  opacity: 0.5;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 150px;
+}
+
+.box_selected {
+  opacity: 1;
+}
+
+.box + .box {
+  margin-left: 10px;
+}
+
+#box_0 {
+  background: url('photo_0.jpg');
+}
+#box_1 {
+  background: url('photo_1.jpg');
+}
+#box_2 {
+  background: url('photo_2.jpg');
+}
+
+.btn {
+  display: inline-block;
+  font-size: 12px;
+  width: 150px;
+  padding: 7px;
+  font-weight: bold;
+  color: #fff;
+  background: #00aaff;
+  border-radius: 5px;
+  box-shadow: 0 4px #0088cc;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+
+.selected {
+  opacity: 1.0;
+}
+
+.error {
+  background-color: orange;
+  padding: 7px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 350px;
+  text-align: center;
+}
+
+table {
+  border: 1px solid #eee;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.today {
+  text-align: center;
+}
+
+td {
+  padding: 7px;
+}
+
+
+thead, tfoot {
+  background-color: #eee;
+}
+
+.youbi_0 {
+  color: red;
+}
+
+.youbi_6{
+  color: blue;
+}
+.gray {
+  color: gray;
+}
+
+.today {
+  font-weight: bold;
+  color: lime;
+}

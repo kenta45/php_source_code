@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+#container {
+  margin: 20px auto;
+  text-align: center;
+  width: 322px;
+}
+
+
+td {
+  width: 60px;
+  height: 60px;
+  background-color: #3399ff;
+  font-weight: bold;
+  margin: 10px;
+}
+
+th {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  color: #3399ff;
+  margin: 10px;
+}
